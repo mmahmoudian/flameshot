@@ -11,6 +11,10 @@ on:
     paths-ignore:
       - 'README.md'
       - 'LICENSE'
+  workflow_dispatch:
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)

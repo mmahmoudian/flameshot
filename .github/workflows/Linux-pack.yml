@@ -13,6 +13,11 @@ on:
       - 'README.md'
       - 'LICENSE'
 
+  workflow_dispatch:
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+
 env:
   PRODUCT: flameshot
   RELEASE: 1
